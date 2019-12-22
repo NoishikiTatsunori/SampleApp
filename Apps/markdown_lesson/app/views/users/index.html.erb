@@ -1,0 +1,12 @@
+<%
+  text =<<~TEXT
+    # 大見出し
+    ## 中見出し
+    ### 小見出し
+
+    ```rb
+    puts "Hello World"
+    ```
+  TEXT
+ %>
+<%= markdown(text).html_safe %>

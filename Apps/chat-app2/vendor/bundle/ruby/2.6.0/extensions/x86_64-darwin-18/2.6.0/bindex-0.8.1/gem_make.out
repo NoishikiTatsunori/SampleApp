@@ -1,0 +1,15 @@
+current directory: /Users/tatsunori/chat-app2/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/tatsunori/.rbenv/versions/2.6.3/bin/ruby -I /Users/tatsunori/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20191219-22137-1jh6mra.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tatsunori/chat-app2/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/tatsunori/chat-app2/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/tatsunori/chat-app2/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20191219-22137-ckeg8e/skiptrace/internal

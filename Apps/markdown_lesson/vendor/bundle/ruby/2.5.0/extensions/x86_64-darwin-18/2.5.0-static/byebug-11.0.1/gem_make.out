@@ -1,0 +1,19 @@
+current directory: /Users/user/Desktop/markdown_lesson/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+/Users/user/.rbenv/versions/2.5.3/bin/ruby -I /Users/user/.rbenv/versions/2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20191212-85290-svjzax.rb extconf.rb
+creating Makefile
+
+current directory: /Users/user/Desktop/markdown_lesson/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/user/Desktop/markdown_lesson/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/user/Desktop/markdown_lesson/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20191212-85290-c2nj7z/byebug
